@@ -31,6 +31,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="32"/>
                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="showTextButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="HOh-Vf-Vph"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -42,6 +45,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fBe-i6-mdW" secondAttribute="bottom" constant="85" id="wU4-V7-9OY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="uIy-vB-i65" id="Tu4-SF-bGO"/>
+                        <outlet property="showTextButton" destination="fBe-i6-mdW" id="7lj-fg-ZzP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
